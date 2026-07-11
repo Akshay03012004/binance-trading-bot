@@ -3,9 +3,9 @@ from bot import BinanceFuturesClient
 
 app = typer.Typer()
 
-# इथे तुझ्या नोटपॅडमधील कीज टाक
-API_KEY = "YOUR_API_KEY" 
-API_SECRET = "YOUR_SECRET_KEY"
+
+API_KEY = "aFJpyKIBwNvJHv6RUWYDVmDWmyXx1M5C13y0mqEy9sPCuUJBvQQh862fgjgIYzbd" 
+API_SECRET = "fBrr8IWpnymedamrShfj8LnpQktKKuGrqtdAvreIWVSSMRr6XKeW3S3OZ7CkZc19"
 
 @app.command()
 def order(
